@@ -15,6 +15,7 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 # Inherit common AwakenOS  Stuff.
 $(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 
+TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_NAME := awaken_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Xiaomi
